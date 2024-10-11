@@ -1,0 +1,16 @@
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.csproj.AssemblyReference.cache
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.AssemblyInfoInputs.cache
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.AssemblyInfo.cs
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.csproj.CoreCompileInputs.cache
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.sourcelink.json
+/home/calinathalya/checkpoint02-1/CP2.Application/bin/Debug/net8.0/CP2.Application.deps.json
+/home/calinathalya/checkpoint02-1/CP2.Application/bin/Debug/net8.0/CP2.Application.dll
+/home/calinathalya/checkpoint02-1/CP2.Application/bin/Debug/net8.0/CP2.Application.pdb
+/home/calinathalya/checkpoint02-1/CP2.Application/bin/Debug/net8.0/CP2.Domain.dll
+/home/calinathalya/checkpoint02-1/CP2.Application/bin/Debug/net8.0/CP2.Domain.pdb
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Appl.B8A5F252.Up2Date
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.dll
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/refint/CP2.Application.dll
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/CP2.Application.pdb
+/home/calinathalya/checkpoint02-1/CP2.Application/obj/Debug/net8.0/ref/CP2.Application.dll

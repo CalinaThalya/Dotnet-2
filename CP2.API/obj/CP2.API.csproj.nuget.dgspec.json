@@ -1,0 +1,377 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/calinathalya/checkpoint02-1/CP2.API/CP2.API.csproj": {}
+  },
+  "projects": {
+    "/home/calinathalya/checkpoint02-1/CP2.API/CP2.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/calinathalya/checkpoint02-1/CP2.API/CP2.API.csproj",
+        "projectName": "CP2.API",
+        "projectPath": "/home/calinathalya/checkpoint02-1/CP2.API/CP2.API.csproj",
+        "packagesPath": "/home/calinathalya/.nuget/packages/",
+        "outputPath": "/home/calinathalya/checkpoint02-1/CP2.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/calinathalya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj"
+              },
+              "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj"
+              },
+              "/home/calinathalya/checkpoint02-1/CP2.IoC/CP2.IoC.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.IoC/CP2.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj",
+        "projectName": "CP2.Application",
+        "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj",
+        "packagesPath": "/home/calinathalya/.nuget/packages/",
+        "outputPath": "/home/calinathalya/checkpoint02-1/CP2.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/calinathalya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/calinathalya/checkpoint02-1/CP2.Data/CP2.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/calinathalya/checkpoint02-1/CP2.Data/CP2.Data.csproj",
+        "projectName": "CP2.Data",
+        "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Data/CP2.Data.csproj",
+        "packagesPath": "/home/calinathalya/.nuget/packages/",
+        "outputPath": "/home/calinathalya/checkpoint02-1/CP2.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/calinathalya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.60, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj",
+        "projectName": "CP2.Domain",
+        "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj",
+        "packagesPath": "/home/calinathalya/.nuget/packages/",
+        "outputPath": "/home/calinathalya/checkpoint02-1/CP2.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/calinathalya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/calinathalya/checkpoint02-1/CP2.IoC/CP2.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/calinathalya/checkpoint02-1/CP2.IoC/CP2.IoC.csproj",
+        "projectName": "CP2.IoC",
+        "projectPath": "/home/calinathalya/checkpoint02-1/CP2.IoC/CP2.IoC.csproj",
+        "packagesPath": "/home/calinathalya/.nuget/packages/",
+        "outputPath": "/home/calinathalya/checkpoint02-1/CP2.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/calinathalya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj"
+              },
+              "/home/calinathalya/checkpoint02-1/CP2.Data/CP2.Data.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Data/CP2.Data.csproj"
+              },
+              "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj": {
+                "projectPath": "/home/calinathalya/checkpoint02-1/CP2.Domain/CP2.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

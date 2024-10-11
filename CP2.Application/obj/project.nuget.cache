@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b/fO0N/SO1k=",
+  "success": true,
+  "projectFilePath": "/home/calinathalya/checkpoint02-1/CP2.Application/CP2.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/calinathalya/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}
